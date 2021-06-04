@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+jupyterlab = "*"
+binance = "*"
+python-binance = "*"
+matplotlib = "*"
+pandas = "*"
+finta = "*"
+keras = "*"
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.9"
